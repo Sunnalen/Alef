@@ -19,7 +19,7 @@
 </template>
 <script setup>
   const tabs = ['Форма', 'Превью']
-  const activeTab = ref('Форма')
+  const activeTab = ref('Превью')
 
   const route = useRoute()
 
